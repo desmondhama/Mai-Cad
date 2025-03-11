@@ -1,0 +1,35 @@
+{
+  "allFiles": [
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/Mai-Cad/app/src/main/java/com/nexera/maicad/MainActivity.kt",
+      "selection": {
+        "end": {
+          "column": 43,
+          "index": 596,
+          "line": 14
+        },
+        "start": {
+          "column": 43,
+          "index": 596,
+          "line": 14
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/Mai-Cad/app/src/main/res/values/strings.xml",
+      "selection": {
+        "end": {
+          "column": 62,
+          "index": 213,
+          "line": 4
+        },
+        "start": {
+          "column": 62,
+          "index": 213,
+          "line": 4
+        }
+      }
+    }
+  ],
+  "selectedFile": "/storage/emulated/0/AndroidIDEProjects/Mai-Cad/app/src/main/java/com/nexera/maicad/MainActivity.kt"
+}

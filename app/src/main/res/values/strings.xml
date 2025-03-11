@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Mai-Cad</string>
+	<string name="full_name">Desmond Hamandawana</string>
+	<string name="title">Android Developer, main(Kotlin)</string>
 
 </resources>

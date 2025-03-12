@@ -67,7 +67,7 @@ fun TitleComposable() {
                 modifier = Modifier.padding(8.dp),
                 style = TextStyle(
                     fontWeight = FontWeight.Bold,
-                    fontSize = 24.sp
+                    fontSize = 28.sp
                 )
             )
             Text(
@@ -89,23 +89,62 @@ fun ContactInformation() {
     ) {
         Column(
             modifier = Modifier
-                .fillMaxWidth()
+                .fillMaxWidth(0.9f)
                 .padding(12.dp)
                 .align(Alignment.BottomCenter), // Fixed BoxScope issue
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
+		val rowPadding = 4.dp
+		val iconContactInfomationPadding = 8.dp
+		    //Email address information
             Row(
-                horizontalArrangement = Arrangement.Center,
-                modifier = Modifier.padding(8.dp)
+                horizontalArrangement = Arrangement.Start,
+                modifier = Modifier
+				.fillMaxWidth()
+				.padding(rowPadding)
             ) {
                 Image(
-                    painter = painterResource(id = R.drawable.email_24),
+                    painter = painterResource(id = R.drawable.im_email),
                     contentDescription = "Email Icon",
-                    modifier = Modifier.padding(8.dp)
+					modifier = Modifier.padding(iconContactInfomationPadding)
                 )
                 Text(
                     text = stringResource(id = R.string.email_address),
-                    modifier = Modifier.padding(8.dp)
+					modifier = Modifier.padding(iconContactInfomationPadding)
+                )
+            }
+			//Phone number
+			Row(
+                horizontalArrangement = Arrangement.Start,
+                modifier = Modifier
+				.fillMaxWidth()
+				.padding(rowPadding)
+            ) {
+                Image(
+                    painter = painterResource(id = R.drawable.im_phone),
+                    contentDescription = "phone Icon",
+					modifier = Modifier.padding(iconContactInfomationPadding)
+                )
+                Text(
+                    text = stringResource(id = R.string.phone_address),
+					modifier = Modifier.padding(iconContactInfomationPadding)
+                )
+            }
+			//Physical address
+			Row(
+                horizontalArrangement = Arrangement.Start,
+                modifier = Modifier
+				.fillMaxWidth()
+				.padding(rowPadding)
+            ) {
+                Image(
+                    painter = painterResource(id = R.drawable.im_location),
+                    contentDescription = "location Icon",
+					modifier = Modifier.padding(iconContactInfomationPadding)
+                )
+                Text(
+                    text = stringResource(id = R.string.location_address),
+					modifier = Modifier.padding(iconContactInfomationPadding)
                 )
             }
         }

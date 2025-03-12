@@ -4,5 +4,7 @@
 	<string name="full_name">Desmond Hamandawana</string>
 	<string name="title">Android Developer, main(Kotlin)</string>
 	<string name="email_address">desmondhama@gmail.com</string>
+	<string name="phone_address">+(27) 631 1791</string>
+	<string name="location_address">Africa-EC-PE-Motherwell</string>
 
 </resources>

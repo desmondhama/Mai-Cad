@@ -1,0 +1,19 @@
+$dokka.format:html-v1
+$dokka.linkExtension:html
+$dokka.location:com.nexera.maicad.ui.theme////PointingToDeclaration/root/com.nexera.maicad.ui.theme/index.html
+$dokka.location:com.nexera.maicad.ui.theme//MyComposeApplicationTheme/#kotlin.Boolean#kotlin.Boolean#kotlin.Function0[kotlin.Unit]/PointingToDeclaration/root/com.nexera.maicad.ui.theme/-my-compose-application-theme.html
+$dokka.location:com.nexera.maicad.ui.theme//Pink40/#/PointingToDeclaration/root/com.nexera.maicad.ui.theme/-pink40.html
+$dokka.location:com.nexera.maicad.ui.theme//Pink80/#/PointingToDeclaration/root/com.nexera.maicad.ui.theme/-pink80.html
+$dokka.location:com.nexera.maicad.ui.theme//Purple40/#/PointingToDeclaration/root/com.nexera.maicad.ui.theme/-purple40.html
+$dokka.location:com.nexera.maicad.ui.theme//Purple80/#/PointingToDeclaration/root/com.nexera.maicad.ui.theme/-purple80.html
+$dokka.location:com.nexera.maicad.ui.theme//PurpleGrey40/#/PointingToDeclaration/root/com.nexera.maicad.ui.theme/-purple-grey40.html
+$dokka.location:com.nexera.maicad.ui.theme//PurpleGrey80/#/PointingToDeclaration/root/com.nexera.maicad.ui.theme/-purple-grey80.html
+$dokka.location:com.nexera.maicad.ui.theme//Typography/#/PointingToDeclaration/root/com.nexera.maicad.ui.theme/-typography.html
+$dokka.location:com.nexera.maicad////PointingToDeclaration/root/com.nexera.maicad/index.html
+$dokka.location:com.nexera.maicad//ContactInformation/#/PointingToDeclaration/root/com.nexera.maicad/-contact-information.html
+$dokka.location:com.nexera.maicad//TitleComposable/#/PointingToDeclaration/root/com.nexera.maicad/-title-composable.html
+$dokka.location:com.nexera.maicad/MainActivity///PointingToDeclaration/root/com.nexera.maicad/-main-activity/index.html
+$dokka.location:com.nexera.maicad/MainActivity/MainActivity/#/PointingToDeclaration/root/com.nexera.maicad/-main-activity/-main-activity.html
+$dokka.location:com.nexera.maicad/MainActivity/onCreate/#[Error type: Unresolved type for Bundle]?/PointingToDeclaration/root/com.nexera.maicad/-main-activity/on-create.html
+com.nexera.maicad
+com.nexera.maicad.ui.theme
